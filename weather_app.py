@@ -36,3 +36,16 @@ def display_weather(weather_data):
     print(f"Description: {description}")
     print(f"Humidity: {humidity}%")
     print(f"Wind Speed: {wind_speed} m/s")
+
+def main():
+    """
+    Main function to run the weather application.
+    """
+    api_key = "8b29a46fc88100004f50b2334bd12e8e"
+    city = input("Enter city name: ")
+    weather_data = get_weather(city, api_key)
+    display_weather(weather_data)
+
+if __name__ == "__main__":
+    main()
+
