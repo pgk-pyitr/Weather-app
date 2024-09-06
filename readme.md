@@ -1,4 +1,4 @@
-The Weather App is a simple Python-based application that retrieves and displays current weather information for a specified city using the OpenWeatherMap API. The app provides essential weather details like temperature, weather description, humidity, and wind speed. This project is ideal for beginners to learn how to interact with external APIs and work with JSON data in Python.
+The Weather App is a simple Python-based application that retrieves and displays current weather information for a specified city using the OpenWeatherMap API. The app provides essential weather details like temperature, weather description, humidity, and wind speed.
 
 Features
 
